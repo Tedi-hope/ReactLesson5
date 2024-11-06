@@ -42,16 +42,10 @@ function App() {
     {!isLoggedIn && showError && <ErrorMessage />} 
     
     {isLoggedIn && <button onClick={handleLogout}>Logout</button>}
+    
     </>
   );
 
-/*
-  <UserDashboard />
-     
-  <AdminDashboard />
-
-  <ErrorMessage />
-*/
 }
 
 export default App
