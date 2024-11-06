@@ -21,7 +21,7 @@ function LoginForm({handleLogin}){
         <div className="row">
             <div className="col-sm-12 col-md-4 col-lg-4 flex justify-content-center">
               <div>
-                <h3 className="ms-5 mt-3 mb-3">Login Form</h3>
+                <h3 className="ms-5 mt-3 mb-3">Login Form(Credentials)</h3>
                 <form onSubmit={onSubmit}>
                    <label for="username">Username</label>
                    <input className="ms-2" type="text" value={username} onChange={(e)=>setUsername(e.target.value)} /> <br /> <br/>
